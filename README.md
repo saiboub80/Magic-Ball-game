@@ -4,24 +4,34 @@
 # NYU-SD-01 Milestone Project: Planning
 
 
+
 _Before you start programming your project_... plan it!
 
 Complete the planning sections below and include them in the README.md of your project repository. Once you're done, reach out to your instructional staff -- they'll examine your plan, help you scope it appropriately for the tools available to you and think ahead toward technical solutions, and point out any areas that could use any more thought. _Use the template below!_
 
----
+The game is more about luck because any payers have the power to change directly the outcome or cheat.
 
 ## Project Description
 
-_(Replace this text with a brief description of your game and what inspired you to make it.)_
-
+The game is more about luck because any payers have the power to change directly the outcome or cheat. The roll will play and each players have 4 of 8 chance to win the power bull number. Each time the roll is play there is one unique win.
 ## Game Logic
+To start the game the first payer have to select between : 
+1-play with robot or play with friend.
+2-even numbers or odd number.
+
 
 ```
 Replace this text with pseudocode.
 The pseudocode should describe in plain, simple language the logic of the game.
 Describe the logic involved in player decisions.
   - What are the choices available to the player?
+  .The player or players have 2 choose:
+  first : play alone
+  second : play with friend
+  Also, the player can choose even number and each time the roll dice show even number, that number will be add to the total already and the same for odd number select.
   - What happens when the player makes a choice?
+  After, the choice made the game start.
+  The first play to have total of 100 points will be declare as the winner.
 Describe the logic that evaluates the player's victory/loss/progress status.
 ```
 
@@ -36,7 +46,9 @@ Describe the logic that evaluates the player's victory/loss/progress status.
 ### MVP Criteria
 
 - Your game must be winnable and clearly shows there’s a winner.
+yes the winner will be the first to collect 100 point.
 - You must provide clear, easily accessible instructions on how to play the game.
+Each player can touch the roll 
 - Another thing my game must do to meet my minimum standard.
 - One more thing.
 - Etc.
