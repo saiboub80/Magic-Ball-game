@@ -1,6 +1,6 @@
 # Magic-Ball-game
 
-https://play-lh.googleusercontent.com/of1y_Y-VkNodTt5J0WTFugkqxcjFX7Xq0gQS78sQ5QXJsjCRLdlZWqk1CRgwdTfyTIs=w240-h480-rw
+<img src="https://play-lh.googleusercontent.com/of1y_Y-VkNodTt5J0WTFugkqxcjFX7Xq0gQS78sQ5QXJsjCRLdlZWqk1CRgwdTfyTIs=w240-h480-rw">
 
 
 # NYU-SD-01 Milestone Project: Planning
