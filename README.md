@@ -1,5 +1,7 @@
 # Magic-Ball-game
 
+https://play-lh.googleusercontent.com/of1y_Y-VkNodTt5J0WTFugkqxcjFX7Xq0gQS78sQ5QXJsjCRLdlZWqk1CRgwdTfyTIs=w240-h480-rw
+
 
 # NYU-SD-01 Milestone Project: Planning
 
@@ -61,11 +63,14 @@ Each player can touch the roll
 
 ## Project Planning
 
-| Date      | Goals                                                                    |
-| --------- | ------------------------------------------------------------------------ |
-| Mon. 7/11 | Create GitHub repository. Complete README.md.                            |
-| Wed. 7/13 |                                                                          |
-| Sat. 7/16 |                                                                          |
-| Mon. 7/18 |                                                                          |
-| Wed. 7/20 |                                                                          |
-| Sat. 7/23 | Deploy to GitHub Pages. Submit completed project. Project presentations. |
+## Project Planning
+​
+| Date      | Goals                                                                                                                              |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Mon. 2/13 | Create a GitHub repository. Complete a README.md according to official template.                                                   |
+| Wed. 2/15 | Deploy your repo to GitHub Pages and make sure it deploys correctly.                                                               |
+| Sat. 2/18 | Work day in class                                                                                                                  |
+| Mon. 2/20 | No class: President’s Day                                                                                                          |
+| Wed. 2/22 | Work day in class                                                                                                                  |
+| Sat. 2/25 | Test that project works, also ensuring your GitHub Pages deploy is up to date and working successfully ahead of your final commit. |
+| Mon. 2/27 | Submit your completed project. Present your project.

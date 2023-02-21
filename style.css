@@ -1,9 +1,45 @@
-button{
-    
-    width :550px;
-    text-align: center;
+#dice{
+    display: inline-block;
+    width: 220px;
+    height: 140px;
     padding: 10px;
+    margin: 25px;
+    text-align: center;
+    font-size: 7em;
     position: relative;
-    right: -550px;
-    bottom: -555px;
+    right: -150px;
+}
+
+#score1{
+    height:40px;
+    width: 50px;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    border: 1px solid red;
+    
+
+}
+
+
+#score2{
+    height:40px;
+    width: 50px;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    left: 500px;
+    top: -42px;
+
+    border: 1px solid red;
+    
+
+}
+
+button{
+    padding: 10px;
+    text-align: center;
+    width: 550px;
+    position: relative;
+    bottom: -150px;
 }
