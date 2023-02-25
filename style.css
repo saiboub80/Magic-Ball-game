@@ -42,4 +42,14 @@ button{
     width: 550px;
     position: relative;
     bottom: -150px;
+    background-color: rgb(123, 123, 228);
+}
+
+#playAgain{
+    padding: 10px;
+    text-align: center;
+    width: 550px;
+    position: relative;
+    bottom: -150px;
+    background-color: rgb(231, 31, 31);
 }

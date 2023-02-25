@@ -15,7 +15,7 @@ The game is more about luck because any payers have the power to change directly
 
 ## Project Description
 
-The game is more about luck because any payers have the power to change directly the outcome or cheat. The roll will play and each players have 4 of 8 chance to win the power bull number. Each time the roll is play there is one unique win.
+The game is more about luck because any payers have the power to change directly the outcome or cheat. The roll will play and each players have 3 of 6 chance to win the power bull number. Each time the roll is play there is one unique win.
 ## Game Logic
 To start the game the first payer have to select between : 
 1-play with robot or play with friend.
@@ -33,7 +33,7 @@ Describe the logic involved in player decisions.
   Also, the player can choose even number and each time the roll dice show even number, that number will be add to the total already and the same for odd number select.
   - What happens when the player makes a choice?
   After, the choice made the game start.
-  The first play to have total of 100 points will be declare as the winner.
+  The first play to have total of 30 points will be declare as the winner.
 Describe the logic that evaluates the player's victory/loss/progress status.
 ```
 
@@ -48,9 +48,9 @@ Describe the logic that evaluates the player's victory/loss/progress status.
 ### MVP Criteria
 
 - Your game must be winnable and clearly shows there’s a winner.
-yes the winner will be the first to collect 100 point.
+yes the winner will be the first to collect 30 point.
 - You must provide clear, easily accessible instructions on how to play the game.
-Each player can touch the roll 
+Each player can click the roll 
 - Another thing my game must do to meet my minimum standard.
 - One more thing.
 - Etc.
@@ -60,6 +60,7 @@ Each player can touch the roll
 - One great idea I hope to be able to add in before the project deadline.
 - Another that will be a stretch.
 - Something else I don't technically know how to do... _yet_. :)
+## People who Help
 
 ## Project Planning
 
