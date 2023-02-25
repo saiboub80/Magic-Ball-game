@@ -42,7 +42,7 @@ button{
     width: 550px;
     position: relative;
     bottom: -150px;
-    background-color: rgb(123, 123, 228);
+    background-color: rgb(5, 249, 136);
 }
 
 #playAgain{
@@ -52,4 +52,41 @@ button{
     position: relative;
     bottom: -150px;
     background-color: rgb(231, 31, 31);
+}
+
+#player2Name{
+    position: relative;
+    left: 243px;
+   
+    
+
+}
+
+div.container{
+
+    background-color: #ffffff;
+}
+
+body{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgb(9, 9, 30);
+}
+
+
+@media (max-width: 445px-375px)  {
+    #score1{
+        height:40px;
+        width: 50px;
+        text-align: center;
+        font-size: 2em;
+        position: relative;
+        left:px;
+        border: 1px solid red;
+        
+    
+    }
+
+    
 }
