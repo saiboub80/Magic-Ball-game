@@ -16,6 +16,7 @@
     text-align: center;
     font-size: 2em;
     position: relative;
+    bottom: 60px;
     border: 1px solid red;
     
 
@@ -28,8 +29,8 @@
     text-align: center;
     font-size: 2em;
     position: relative;
-    left: 500px;
-    top: -42px;
+    left: 498px;
+    bottom: 98px;
 
     border: 1px solid red;
     
@@ -55,11 +56,19 @@ button{
 }
 
 #player2Name{
+    width: 120px;
+    height: 25px;
+    border: 1px solid blue;
     position: relative;
-    left: 243px;
-   
-    
+    left: 428px;
+    bottom: 40px;
+}
 
+
+#player1Name{
+    width: 120px;
+    height: 25px;
+    border: 1px solid blue;
 }
 
 div.container{

@@ -6,17 +6,20 @@ const score2 = document.querySelector("#score2");
 const player1Name=document.querySelector("#player1Name");
 const player2Name=document.querySelector("#player2Name");
 
-
+let askName = false;
 
 
 function getName(){
-    let name = prompt("welcome to magis Ball, You will select 'EVEN NUMBER', please Enter your name");
-    player1Name.innerHTML = name;
+    if(askName===false){
+    let name1 = prompt("welcome to magis Ball, You will select 'EVEN NUMBER', please Enter your name");
+    player1Name.textContent = name1;
     let name2 =prompt("welcome to magis Ball, You will select 'ODD NUMBER', please Enter your name");
-    player2Name.innerHTML= name2;
-    console.log(name,name2)
-     
-}
+    player2Name.textContent= name2;
+    console.log(name1, name2)
+    askName = true
+    }
+
+    }
 
 
 
@@ -24,8 +27,7 @@ function getName(){
 
 
 button.addEventListener("click",function(){
-    getName()
-   
+    getName() ===false
 
     let rolls = [roll(6)];
     dice.innerHTML=rolls;
