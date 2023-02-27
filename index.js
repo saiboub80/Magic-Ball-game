@@ -7,23 +7,20 @@ const player1Name=document.querySelector("#player1Name");
 const player2Name=document.querySelector("#player2Name");
 
 let askName = false;
-
+name1;
+name2;
 
 function getName(){
     if(askName===false){
-    let name1 = prompt("welcome to magis Ball, You will select 'EVEN NUMBER', please Enter your name");
+    let name1 = prompt(" You will select 'EVEN NUMBER', please Enter your name");
     player1Name.textContent = name1;
-    let name2 =prompt("welcome to magis Ball, You will select 'ODD NUMBER', please Enter your name");
+    let name2 =prompt(" You will select 'ODD NUMBER', please Enter your name");
     player2Name.textContent= name2;
     console.log(name1, name2)
     askName = true
     }
 
     }
-
-
-
-
 
 
 button.addEventListener("click",function(){
@@ -61,7 +58,8 @@ function reset(){
         console.log(scoreNumber)
         score1.innerHTML = scoreNumber;
         if(scoreNumber>=100){
-            alert('score1 is the winner, Please Click on OK to Start A New Game',reset());
+            player1Name.textContent = name1;
+            alert(name1 + 'is the winner, Please Click on OK to Start A New Game',reset());
         }
         
         
@@ -74,7 +72,8 @@ function reset(){
         console.log(scoreNumber)
         score2.innerHTML = scoreNumber;
         if(scoreNumber>=100){
-            alert('score2 is the winner, Please Click on OK to Start A New Game',reset());
+            player2Name.textContent = name2;
+            alert(name2 +  'is the winner, Please Click on OK to Start A New Game',reset());
         }
     }
 

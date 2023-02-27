@@ -48,7 +48,6 @@ button{
 
 #playAgain{
     padding: 10px;
-    text-align: center;
     width: 550px;
     position: relative;
     bottom: -150px;
@@ -80,8 +79,33 @@ body{
     display: flex;
     justify-items: center;
     justify-content: center;
-    background-color: rgb(9, 9, 30);
+    background-color: rgb(28, 28, 50);
 }
+
+div>h1{
+   
+    width: 320px;
+    height: 105px;
+    border: 1px solid rgb(55, 255, 0);
+    color: aqua;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    border-radius: 10px;
+    
+}
+#about{
+    width: 320px;
+    height: 185px;
+    text-align: center;
+    border: 1px solid rgb(55, 255, 0);
+    color: aqua;
+    position: relative;
+    right: 30px;
+    border-radius: 10px;
+}
+
+
 
 
 @media (max-width: 445px-375px)  {

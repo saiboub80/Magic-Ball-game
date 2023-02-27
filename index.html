@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic-Ball-Game</Ball-Game></title>
+    <title>Roll Dice Game</Ball-Game></title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+    <div>
+        <h1 id="rule"> Welcome<br> to <br>Roll Dice Game</h1>
+        <div id="about">
+            <h2>Rules of the Game</h2>
+            <h3> First player to enter the name will select even Number and the Second will select odd number.<br>
+            The roll dice will run randomly, each time one player will score 10 points. </h3>
+        </div>
+    </div>
+    
     <div class= container>
-        <p type="text" id="player1Name"> </p>
-        <p type="text" id="player2Name"> </p>
+        <p type="text" id="player1Name" require> </p>
+        <p type="text" id="player2Name" require> </p>
         <div id='score1'>0 </div>
         <div id='score2'>0 </div>
         <div id ='dice'></div>
