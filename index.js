@@ -7,6 +7,16 @@ const player1Name=document.querySelector("#player1Name");
 const player2Name=document.querySelector("#player2Name");
 
 let askName = false;
+function playSound() {
+    var rollSound = document.querySelector("#sound");
+    rollSound.play();
+  }
+  function playwin() {
+    var winSound = document.querySelector("#win");
+    winSound.play();
+  }
+  
+  
 
 
 
@@ -25,6 +35,7 @@ function getName(){
 
 button.addEventListener("click",function(){
     getName() ===false
+    playSound();
 
     let rolls = [roll(6)];
     dice.innerHTML=rolls;
@@ -54,11 +65,10 @@ function reset(){
         console.log(sum)
         let scoreNumber = parseInt(score1.innerHTML) ;
         scoreNumber+= sum
-        
         console.log(scoreNumber)
         score1.innerHTML = scoreNumber;
         if(scoreNumber>=100){
-            alert('Player1 is the winner, Please Click on OK to Start A New Game',reset());
+            alert('Player1 is the winner, Please Click on OK to Start A New Game',playwin(),reset());
         }
         
         
@@ -71,7 +81,7 @@ function reset(){
         console.log(scoreNumber)
         score2.innerHTML = scoreNumber;
         if(scoreNumber>=100){
-            alert('Player2 is the winner, Please Click on OK to Start A New Game',reset());
+            alert('Player2 is the winner, Please Click on OK to Start A New Game',playwin(),reset());
         }
     }
 
