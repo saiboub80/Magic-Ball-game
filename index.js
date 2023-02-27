@@ -58,7 +58,6 @@ function reset(){
         console.log(scoreNumber)
         score1.innerHTML = scoreNumber;
         if(scoreNumber>=100){
-            player1Name.textContent = name1;
             alert('Player1 is the winner, Please Click on OK to Start A New Game',reset());
         }
         
@@ -72,7 +71,6 @@ function reset(){
         console.log(scoreNumber)
         score2.innerHTML = scoreNumber;
         if(scoreNumber>=100){
-            player2Name.textContent = name2;
             alert('Player2 is the winner, Please Click on OK to Start A New Game',reset());
         }
     }
