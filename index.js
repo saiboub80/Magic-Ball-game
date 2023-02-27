@@ -59,7 +59,7 @@ function reset(){
         score1.innerHTML = scoreNumber;
         if(scoreNumber>=100){
             player1Name.textContent = name1;
-            alert(name1 + 'is the winner, Please Click on OK to Start A New Game',reset());
+            alert('Player1 is the winner, Please Click on OK to Start A New Game',reset());
         }
         
         
@@ -73,7 +73,7 @@ function reset(){
         score2.innerHTML = scoreNumber;
         if(scoreNumber>=100){
             player2Name.textContent = name2;
-            alert(name2 +  'is the winner, Please Click on OK to Start A New Game',reset());
+            alert('Player2 is the winner, Please Click on OK to Start A New Game',reset());
         }
     }
 
