@@ -7,8 +7,8 @@ const player1Name=document.querySelector("#player1Name");
 const player2Name=document.querySelector("#player2Name");
 
 let askName = false;
-name1;
-name2;
+
+
 
 function getName(){
     if(askName===false){
