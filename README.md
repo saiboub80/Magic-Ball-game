@@ -74,6 +74,7 @@ Each player can click the roll
 | Mon. 2/20 | No class: President’s Day                                                                                                          |
 | Wed. 2/22 | the idea work let work on CSS and add son audio son to the project                                                                                                                  |
 | Sat. 2/25 | Test that project works, also ensuring your GitHub Pages deploy is up to date and working successfully ahead of your final commit. |
+All the sounds are copyright from youtube. I didn't create them.
 Collaborators: I say Thank you very much Mr.Caleb Mieszko and Mr.Christopher DiStasio
 
 | Mon. 2/27 | Submit your completed project. Present your project.
